@@ -1,0 +1,48 @@
+.header{
+    color: rgba(241, 8, 86, 0.667);
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0 10%;
+    width:100%;
+    height: 5rem;
+
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.header ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+.header li{
+    margin-left: 3rem;
+    cursor: pointer;
+}
+.header a{
+    text-decoration:none;
+    font-size: 1.5rem;
+    color: aqua;
+}
+.header a:hover, .header a:active, .header a.active{
+    color: white;
+    cursor: pointer;
+}
+
+.badge{
+    background-color: red; 
+    color: white;
+    border-radius:10px;
+    padding:0 1rem;
+    margin-left: 0.5rem;
+
+}
