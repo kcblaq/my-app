@@ -1,0 +1,35 @@
+.form{
+    padding: 1rem;
+}
+.control{
+    margin-bottom: 0.5rem;
+}
+.control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.control input,
+.control textarea {
+    display: block;
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding : 1rem;
+    width: 100%;
+
+}
+.actions button{
+cursor: pointer;
+font: inherit;
+background-color:#801111;
+color: white;
+padding: 0.5rem 1.5rem;
+border: 1px solid #801111;
+border-radius: 4px;
+}
+.actions button:hover,
+actions button:active{
+    background-color:#801;
+    border-color: #801;
+}

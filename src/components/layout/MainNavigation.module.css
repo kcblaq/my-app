@@ -1,6 +1,6 @@
 .header{
-    color: rgba(241, 8, 86, 0.667);
-    background-color: #000;
+    color: #ffffffaa;
+    background-color: #750b0b;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -31,7 +31,7 @@
 .header a{
     text-decoration:none;
     font-size: 1.5rem;
-    color: aqua;
+    color: rgb(192, 153, 176);
 }
 .header a:hover, .header a:active, .header a.active{
     color: white;
